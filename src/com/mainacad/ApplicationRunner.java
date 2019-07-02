@@ -16,7 +16,7 @@ public class ApplicationRunner {
     checkShape(rectangle);
     checkShape(square);
 
-    System.out.println("Max shape has area " + maxShape.getArea());
+    System.out.println("Max shape is " + maxShape.getClass().getSimpleName() + " and it has area " + maxShape.getArea());
   }
 
   private static void checkShape(Shape shape) {
